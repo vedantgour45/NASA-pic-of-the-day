@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>NASA picture of the day | F3 Module Test</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="current-image-container">
+            <!-- Image of the day will be displayed here dynamically -->
+        </div>
+
+        <div class="bottom-part">
+            <h2>Search for a picture of the day</h2>
+            <form id="search-form">
+                <label for="search-input">Select a Date:</label>
+                <input type="date" id="search-input" max="2023-04-06">
+                <button type="submit">Search</button>
+            </form>
+
+            <h2>Previous searches:</h2>
+            <ul id="search-history">
+                <!-- Past searches will be displayed here -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
